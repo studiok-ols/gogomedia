@@ -1,0 +1,16 @@
+.has-blue-background-color { background-color: $blue; }
+.has-lightblue-background-color { background-color: $blue-light; }
+.has-graytext-color { color: $gray-text; }
+.wp-block-group { padding: 0.01px 0; }
+.wp-block-image.aligncenter { margin: auto; }
+.wp-block-column p { font-size: 0.9375rem; }
+.wp-block-columns .wp-block-column { padding: var(--spacer); }
+.wp-block-group.padding-spacer2x { padding: var(--spacer2x) 0; }
+
+.wp-block-group {
+
+  &__inner-container {
+    width: 94%; margin-left: auto; margin-right: auto;
+  }
+
+}

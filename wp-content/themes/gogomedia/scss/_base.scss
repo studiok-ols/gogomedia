@@ -1,0 +1,15 @@
+body { font-family: $font; font-weight: 300; margin: 0; padding: 0; font-size: 16px; }
+
+.container {
+  width: 94%; margin-left: auto; margin-right: auto; max-width: 992px;
+}
+.gap-spacer2x { gap: var(--spacer2x); }
+.padding-spacer2x { padding: var(--spacer2x) 0; }
+
+header { background-color: white; padding: 0.01px 0; }
+h2 { font-weight: 300; font-size: 2.5rem; line-height: 1.2em; }
+h3 { font-weight: 300; font-size: 1.875rem; line-height: 1.2em; }
+h4 { font-weight: 300; font-size: 1.25rem; line-height: 1.2em; }
+p { font-weight: 300; font-size: 1.25rem; line-height: 1.6em; padding: 0; }
+
+.tmp { border: solid 1px #00FF00 !important; box-sizing: border-box !important; }

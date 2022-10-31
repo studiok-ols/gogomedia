@@ -1,0 +1,31 @@
+$font: 'Rubik';
+$blue: #215398;
+$blue-light: #F1F6FC;
+$gray-text: #808080;
+$black-text: #2D3236;
+
+$breakpoints: (
+        xs: 576px,
+        sm: 768px,
+        md: 992px,
+        lg: 1200px,
+        xl: 1500px,
+        xxl: 1720px,
+);
+
+:root{
+  --spacer: 20px;
+  --spacer2x: 40px;
+  --spacer4x: 80px;
+  --spacer8x: 160px;
+  --wp--preset--color--blue: $blue;
+}
+
+@media (max-width: 992px){
+  :root{
+    --spacer: 10px;
+    --spacer2x: 20px;
+    --spacer4x: 80px;
+    --spacer8x: 80px;
+  }
+}
